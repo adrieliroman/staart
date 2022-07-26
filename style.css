@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.left{
+    width: 400px;
+}
+.right1{
+    width: 400px;
+    margin-left: 400px;
+    margin-top: 0px;
+
+}
+.right2{
+    background-color: rgb(137, 23, 212);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+.p2{
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
