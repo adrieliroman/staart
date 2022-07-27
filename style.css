@@ -1,30 +1,74 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
+html{
+    font-size: 62.5%;
+}
 body{
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
     background-color: black;
-    color: white;
-    padding: 0px;
-    margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
-.left{
-    width: 400px;
+.main-container{
+    display: flex;
+    height: 100vh;
 }
-.right1{
-    width: 400px;
-    margin-left: 400px;
-    margin-top: 0px;
-
+/* duas classes na mesma tag no html, apenas separar por espaço */
+.container{
+    width: 50%;
 }
-.right2{
-    background-color: rgb(137, 23, 212);
-    width: 400px;
-    height: 100px;
-    text-align: center;
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.p2{
+.main{
+    padding: 8rem;
+}
+.main-title{
+    font-size: 6rem;
+}
+.secon-title{
+    font-size: 3rem;
+}
+.description{
+    margin: 3rem 0;
+}
+.main-btn{
+    width: 100%;
+    height: 6rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.6rem;
+    
+}
+.btn{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+}
+.card{
     background-color: white;
     color: black;
-    width: 400px;
-    height: 100px;
-    text-align: center;
+    max-width: 60rem;
+    overflow: hidden;
+
+}
+.card-title{
+    background-color: rgb(119, 9, 183);
+    height: 25rem;
+}
+.right-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.card-description{
+    padding: 3rem 1.5rem;
+    min-height: 14rem;
+
+}
+.card, .main-btn{
+    border-radius: 0.5rem;
 }
