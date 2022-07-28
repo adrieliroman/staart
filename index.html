@@ -8,6 +8,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
     
+    
 </head>
 <body>
 <div class="main-container">
@@ -20,7 +21,7 @@
 
                 <div class="btn">
                     <button class="main-btn">Próxima pergunta</button>
-                    <button class="main-btn">Revelar Resposta</button>
+                    <button onclick="showAnswer()" class="main-btn">Revelar Resposta</button>
                 </div>
             </div>
         </div>
@@ -29,11 +30,12 @@
             <div class="card-title center">
             <h1 class="right-title">O que é HTML?</h1>
             </div>
-                <div class="card-description">
+                <div id="answer" class="card-description blur">
             <p>A linguagem de Marcação de Hipertexto(HTML)é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online</p>
                 </div>
         </div>
     </div>
 </div>
 </body>
+<script src="js/index.js"> </script>
 </html>

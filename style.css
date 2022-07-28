@@ -72,3 +72,6 @@ body{
 .card, .main-btn{
     border-radius: 0.5rem;
 }
+.blur{
+    filter: blur(5px);
+}
