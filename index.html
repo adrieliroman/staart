@@ -7,7 +7,10 @@
     <title>Quick Start</title>
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
-    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     
 </head>
 <body>
@@ -20,20 +23,14 @@
                 <p class="description">No cartão você encontrará palavras e expressões que irá utilizar no seu dia a dia como dev. Aproveite para testar seus conhecimentos e fixar o significado.</p>
 
                 <div class="btn">
-                    <button class="main-btn">Próxima pergunta</button>
+                    <!--sempre colocar parenteses-->
+                    <button onclick="search()" class="main-btn">Próxima pergunta</button>
                     <button onclick="showAnswer()" class="main-btn">Revelar Resposta</button>
                 </div>
             </div>
         </div>
-    <div class="container center">
-        <div class="card">
-            <div class="card-title center">
-            <h1 class="right-title">O que é HTML?</h1>
-            </div>
-                <div id="answer" class="card-description blur">
-            <p>A linguagem de Marcação de Hipertexto(HTML)é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online</p>
-                </div>
-        </div>
+    <div id="card-container" class="container center">
+        
     </div>
 </div>
 </body>
